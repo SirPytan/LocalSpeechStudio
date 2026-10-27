@@ -1,0 +1,5 @@
+# Zusatzumgebung für Parler-TTS (.venv-parler) – parler-tts benötigt transformers 4.46.1.
+# Einrichtung: python setup_env.py --env parler  (installiert vorher passendes torch)
+parler_tts @ https://github.com/huggingface/parler-tts/archive/d108732cd57788ec86bc857d99a6cabd66663d68.zip
+# Schnelles Laden (ohne accelerate dauert das Laden des Modells ca. 60 s länger)
+accelerate

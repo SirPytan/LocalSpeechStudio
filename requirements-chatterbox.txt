@@ -1,0 +1,4 @@
+# Zusatzumgebung für Chatterbox Multilingual (.venv-chatterbox) – benötigt transformers 5.x.
+# PyTorch: dieselbe Version wie die Hauptumgebung (torch 2.8, per Override statt der offiziell verlangten 2.6).
+# Einrichtung: python setup_env.py --env chatterbox  (installiert vorher passendes torch)
+chatterbox-tts @ https://github.com/resemble-ai/chatterbox/archive/5de7a54aa4e5e2baadb0182dde554908b48b85c2.zip

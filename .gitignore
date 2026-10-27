@@ -1,0 +1,41 @@
+# Python environments (created by setup_env.py / the installer)
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# Downloaded tools, models and uv cache (never commit – downloaded on install)
+tools/
+models/
+
+# User data and machine-specific state
+voices/
+config.json
+.load_times.json
+.model_vram.json
+*.log
+.installing
+
+# Build output (published as GitHub release assets instead)
+dist/
+
+# Local copies of the installer scripts (originals live in installer/windows and installer/linux)
+/install.bat
+/start.bat
+/update.bat
+/install.sh
+/start.sh
+/update.sh
+
+# Audio files from testing
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

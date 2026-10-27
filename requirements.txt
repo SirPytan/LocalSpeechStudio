@@ -1,0 +1,19 @@
+# Hauptumgebung (.venv). torch/torchaudio werden passend zur Grafikkarte von setup_env.py installiert
+# (NVIDIA: CUDA 12.8, AMD: ROCm, sonst CPU) – deshalb stehen sie nicht hier.
+# Zusätzlich installiert setup_env.py "qwen-asr==0.0.6" ohne Abhängigkeiten (--no-deps).
+qwen-tts==0.1.1
+transformers==4.57.3
+accelerate
+snac
+gradio
+huggingface_hub
+# Schnellere Downloads von Hugging Face. Muss explizit stehen: huggingface_hub fordert es nur für
+# "amd64" (klein) an, Windows meldet aber "AMD64" – uv installiert es dann nicht.
+hf_xet
+nvidia-ml-py
+librosa
+soundfile
+onnxruntime
+scipy
+pytz
+sox

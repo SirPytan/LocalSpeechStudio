@@ -1,0 +1,3 @@
+# Zusatzumgebung für ClearerVoice-Studio (.venv-clearvoice) – benötigt numpy<2 und ältere librosa-Version.
+# Einrichtung: python setup_env.py --env clearvoice  (installiert vorher passendes torch)
+clearvoice==0.1.2
